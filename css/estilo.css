@@ -1,13 +1,26 @@
-.largura-normal{
+.banner{
         width: 1024px;
-        height: 300px;
-        background-color: rgb(190, 42, 32);
+        height: 400px;
         margin: 0 auto;
+        background-image: url(../image/banner.jpeg);
+        background-size: cover;
+        display:flex;
+        align-content: center;
 }
 
-.largura-maxima{
-    max-width: 1024px;
-    height:300px;
-    background-color: rgb(41, 197, 75);
-    margin:0 auto;
+.texto{
+   
+    color: #fff;
+    margin-left: 50px;
+
+    
+}
+.img-banner{
+
+    width: 500px;
+    height: 330px;
+    
+    margin-right: 50px;
+    
+      
 }
