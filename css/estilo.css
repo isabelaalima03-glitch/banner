@@ -4,7 +4,8 @@
         background-image: url(../image/banner.jpeg);
         background-size: cover;
         display:flex;
-        align-items:center;      
+        align-items:center;
+        margin: auto;      
 }
 
 .texto{ 
@@ -27,10 +28,10 @@ img{
 
     img{
         width: 100%;
-       margin: auto;  
+       height: auto;  
     }
     .texto{
         width: 100%;
-        margin: auto;
+        height: auto;
     }
 }
