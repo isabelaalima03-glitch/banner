@@ -1,26 +1,36 @@
 .banner{
-        width: 1024px;
-        height: 400px;
-        margin: 0 auto;
+        max-width: 1024px;
+        height: 400px;    
         background-image: url(../image/banner.jpeg);
         background-size: cover;
         display:flex;
-        align-content: center;
+        align-items:center;      
 }
 
-.texto{
-   
+.texto{ 
     color: #fff;
-    margin-left: 50px;
-
-    
+    margin-left: 50px;  
 }
-.img-banner{
+img{
+    width: 400px;
+    height: auto;
+  
+}
 
-    width: 500px;
-    height: 330px;
-    
-    margin-right: 50px;
-    
-      
+
+@media screen and (max-width:1024px) {
+    .banner{
+        height: auto;
+        flex-direction: column;  
+          
+    }
+
+    img{
+        width: 100%;
+       margin: auto;  
+    }
+    .texto{
+        width: 100%;
+        margin: auto;
+    }
 }
